@@ -47,7 +47,7 @@ def drawGraph(x, y):
     plt.title("Food Truck Data profit Graph")
     plt.xlabel("population of city in 10,000s")
     plt.ylabel("profit in $ 10,000")
-    plt.plot(x, y, 'ro', mec="k")  # mec circle edge color
+    plt.plot(x, y, 'ro', mec="k")  # mec circle edge color/
 
 
 # The numpy function stack joins arrays along a given axis.
